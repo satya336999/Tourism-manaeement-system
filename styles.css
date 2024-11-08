@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2060ce;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.place {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 300px;
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+}
+
+.place button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2060ce;
+   
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.place button:hover {
+    background-color: #1c4fa1;
+}
+
+#booking {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2060ce;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1c4fa1;
+}
+
+
